@@ -62,6 +62,29 @@ I have decided to draw out my wireframes. I wanted to keep the design simple and
 
 # Technology
 
+# Technology
+### HTML5
+* As a structure language.
+### CSS
+* As a style language
+### Font Awesome
+* As an icon library for social links.
+### Google Fonts
+* As a font resource.
+### GitHub
+* As a software hosting platform to keep the project in a remote location.
+### Git
+* As a version-control system tracking.
+### Gitpod
+* As a development hosting platform.
+### Adobe XD
+* As a wireframing tool.
+### Adobe Photoshop
+* As an image editor.
+### Adobe Illustrator
+* As an illustration editor, designed the logo using this.
+
+
 [Back to Table of contents](#table-of-contents)
 
 # Testing
