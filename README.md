@@ -39,6 +39,25 @@ I have decided to draw out my wireframes. I wanted to keep the design simple and
 ### Mobile Version
 ![Mobile wireframes](assets/images/mobile-mockup.jpeg)
 
+### Site Styles
+
+#### Colours
+* Background colour - # 
+* Secondary colour - #
+* Text colour  - #
+* Secondary text colour  - #
+
+#### Font
+
+* 
+
+#### Images
+
+* For my images I used [Unsplash.com](https://unsplash.com) and they are credited in [credits](#credits) section.
+
+## Features of the website
+
+
 [Back to Table of contents](#table-of-contents)
 
 # Technology
