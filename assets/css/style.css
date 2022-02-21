@@ -3,5 +3,66 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #000;
+    color: #373736;
+    background: #EDEDED;
+}
+
+/* index page */
+
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0;
+}
+/* logo on the index page */
+.login-page img {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 25%;
+    height: 100%;
+}
+/* design for email and password inputs */
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 2rem 0;
+}
+
+.input {
+    margin-top: 0.5rem;
+    border: none;
+    background: none;
+    border-bottom: 1px solid #373736;
+    font-size: 20px;
+}
+/* design for the submit and register buttons */
+.button-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: auto;
+    font-weight: bold;
+}
+
+.button-wrapper a {
+    text-decoration: none;
+}
+
+.bottom-btns {
+    border: none;
+    background: #373736;
+    color: #EDEDED;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+}
+
+#register-btn {
+    margin-top: 1rem;
 }
