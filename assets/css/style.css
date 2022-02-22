@@ -66,3 +66,108 @@ body {
 #register-btn {
     margin-top: 1rem;
 }
+
+/* Register page */
+
+/* Media Queries */
+
+@media (max-width: 1000px) {
+    /* for index page */
+    .login-page {
+        margin: 3rem 0;
+    }
+    .login-page img {
+        width: 30%;
+    }
+    .input-wrapper {
+        width: 30%;
+    }
+    .button-wrapper {
+        width: 30%;
+    }
+}
+
+@media (max-width: 900px) {
+    /* for index page */
+    
+}
+
+@media (max-width: 800px) {
+    /* for index page */
+    .login-page {
+        margin: 2rem 0; 
+    }
+}
+
+@media (max-width: 700px) {
+    /* for index page */
+    .login-page {
+        margin: 1.5rem 0;
+    }
+    .login-page img {
+        width: 35%;
+    }
+    .input-wrapper {
+        width: 35%;
+    }
+    .button-wrapper {
+        width: 35%;
+    }
+}
+
+@media (max-width: 600px) {
+    /* for index page */
+    .login-page img {
+        width: 40%;
+    }
+    .input-wrapper {
+        width: 40%;
+    }
+    .button-wrapper {
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    /* for index page */
+    .login-page img {
+        width: 45%;
+    }
+    .input-wrapper {
+        width: 45%;
+    }
+    .button-wrapper {
+        width: 45%;
+    }
+}
+
+@media (max-width: 400px) {
+    /* for index page */
+    .login-page img {
+        width: 60%;
+    }
+    .input-wrapper {
+        width: 60%;
+        margin: 3rem 0;
+    }
+    .input {
+        font-size: 15px;
+    }
+    .button-wrapper {
+        width: 60%;
+    }
+}
+
+@media (max-width: 300px) {
+    /* for index page */
+    .login-page img {
+        width: 65%;
+    }
+    .input-wrapper {
+        width: 65%;
+    }
+    .button-wrapper {
+        width: 65%;
+    }
+}
+
