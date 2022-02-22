@@ -163,7 +163,46 @@ body {
 }
 
 /* homepage */
+header {
+    background: #E9930A;
+    height: 20vh;
+}
 
+.header-wrapped {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding: 15px 30px;
+}
+
+.logo-in-header {
+    position: relative;
+    width: 25%;
+    height: 100%;
+
+}
+
+.homepage {
+    margin: 2rem;
+}
+.all-cards-wrapped {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.card-wrapper {
+    overflow: hidden;
+    height: 50px;
+    width: 20%;
+}
+
+.img-for-card {
+    position: relative;
+}
 
 
 /* Media Queries */
