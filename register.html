@@ -12,28 +12,38 @@
 </head>
 <body>
     <section>
-        <div class="register">
+        <div class="register-page">
             <img src="assets/images/logo.png" alt="Logo for the tap">
-            <div class="list">
-                <h1 class="generic-r-heading">Personal Information</h1>
-                <input type="text" placeholder="First Name (Required)" class="register-input" required>
-                <input type="text" placeholder="Last Name (Required)" class="register-input" required>
-                <h1 class="generic-r-heading">Account Security</h1>
-                <input type="email" placeholder="Email Address (Required)" class="register-input" required>
-                <input type="number" name="phone-number" id="" placeholder="Mobile Number (Optional)" class="register-input" required>
-                <input type="password" name="" id="" placeholder="Password (Required)" class="register-input" required>
-                <input type="password" name="" id="" placeholder="Confirm Password (Required)" class="register-input" required>
-                <h1 class="generic-r-heading">Newsletter</h1>
-                <input type="checkbox" name="" id="" placeholder="I want to subscribe to the newsletter">
-                <h1 class="generic-r-heading">Legal</h1>
-                <a href="#" class="bottom-btns" id="privacy-btn">Privacy Policy</a>
-                <input type="checkbox" name="" id="" placeholder="I have read and agree to the privacy policy." required>
-                <input type="checkbox" name="" id="" placeholder="I Confirm that I am over the age of 18." required>
-                <div class="button-wrapper">
-                    <input type="submit" placeholder="Register" class="bottom-btns">
-                    <a href="index.html" class="bottom-btns" id="back-to-login-btn">Back to login</a>
+            <form action="post">
+                <div class="list">
+                    <h1 class="generic-r-heading">Personal Information</h1>
+                    <input type="text" placeholder="First Name (Required)" class="register-input" required>
+                    <input type="text" placeholder="Last Name (Required)" class="register-input" required>
+                    <h1 class="generic-r-heading">Account Security</h1>
+                    <input type="email" placeholder="Email Address (Required)" class="register-input" required>
+                    <input type="number" name="phone-number" id="" placeholder="Mobile Number (Optional)" class="register-input" required>
+                    <input type="password" name="" id="" placeholder="Password (Required)" class="register-input" required>
+                    <input type="password" name="" id="" placeholder="Confirm Password (Required)" class="register-input" required>
+                    <h1 class="generic-r-heading">Newsletter</h1>
+                    <div class="checkbox-wrapper">
+                        <label for="newsletter">I want to subscribe to the newsletter</label>
+                        <input type="checkbox" name="" id="newsletter">
+                    </div>
+                    <a href="#" class="reg-bottom-btns" id="privacy-btn">Privacy Policy</a>
+                    <div class="checkbox-wrapper">
+                        <label for="ppolicy">I have read and agree to the privacy policy.</label>
+                        <input type="checkbox" name="" id="ppolicy" required>
+                    </div>  
+                    <div class="checkbox-wrapper">
+                        <label for="over-eighteen">I Confirm that I am over the age of 18.</label>
+                        <input type="checkbox" name="" id="over-eighteen" required>
+                    </div>
+                    <div class="reg-button-wrapper">
+                        <input type="submit" placeholder="Register" class="reg-bottom-btns">
+                        <a href="index.html" class="reg-bottom-btns" id="back-to-login-btn">Back to login</a>
+                    </div>
                 </div>
-            </div>
+            </form>
         </div>
     </section>
 </body>
