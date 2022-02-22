@@ -145,6 +145,11 @@ body {
     text-transform: capitalize;
 }
 
+.back-button-wrapped {
+    padding: 0 5rem 5rem 5rem;
+    display: flex;
+}
+
 .back-to-reg-btn{
     width: 100%;
     border: none;
@@ -152,10 +157,9 @@ body {
     color: #EDEDED;
     border-radius: 10px;
     text-align: center;
-    font-size: 15px;
     padding: 10px 0;
-    margin: 0.5rem 0;
     text-decoration: none;
+    font-size: 30px;
 }
 
 
@@ -175,12 +179,24 @@ body {
     .button-wrapper {
         width: 30%;
     }
+    /* privacy policy */
+    .privacy-heading {
+        font-size: 4rem;
+    }
 }
 
 @media (max-width: 900px) {
     /* register page */
     .register-page img {
         width: 30%;
+    }
+    /* privacy policy */
+    .privacy-heading {
+        font-size: 3rem;
+    }
+
+    .ppolicy-wrapper h2 {
+        font-size: 2rem;
     }
 }
 
@@ -192,6 +208,11 @@ body {
     /* register page */
     .register-page img {
         width: 35%;
+    }
+
+    /* privacy policy */
+    .back-to-reg-btn {
+        font-size: 20px;
     }
 }
 
@@ -209,6 +230,17 @@ body {
     .button-wrapper {
         width: 35%;
     }
+    /* privacy policy */
+    .privacy-heading {
+        font-size: 2rem;
+    }
+    .ppolicy-wrapper h2 {
+        font-size: 1.5rem;
+    }
+    .ppolicy-wrapper p {
+        font-size: 15px;
+    }
+
 }
 
 @media (max-width: 600px) {
@@ -221,6 +253,13 @@ body {
     }
     .button-wrapper {
         width: 40%;
+    }
+    /* privacy policy */
+    .ppolicy-wrapper {
+        padding: 3rem;
+    }
+    .back-button-wrapped {
+        padding: 0 3rem 3rem 3rem;
     }
 }
 
@@ -259,6 +298,25 @@ body {
     /* register page */
     .register-page {
         margin: 2rem 0;
+    }
+    /* privacy policy */
+    .privacy-heading {
+        font-size: 1.5rem;
+    }
+    .ppolicy-wrapper h2 {
+        font-size: 1.2rem;
+    }
+    .ppolicy-wrapper p {
+        font-size: 12px;
+    }
+    .ppolicy-wrapper {
+        padding: 2rem;
+    }
+    .back-button-wrapped {
+        padding: 0 2rem 2rem 2rem;
+    }
+    .back-to-reg-btn {
+        font-size: 15px;
     }
 }
 
