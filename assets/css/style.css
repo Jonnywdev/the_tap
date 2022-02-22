@@ -129,6 +129,36 @@ body {
     border-bottom: 1px solid #373736;
     color: #373736;
 }
+
+/* Privacy Policy */
+.ppolicy-wrapper {
+    padding: 5rem;
+}
+
+.privacy-heading {
+    text-transform: uppercase;
+    color: #E9930A;
+    font-size: 5rem;
+}
+.ppolicy-wrapper h2 {
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+
+.back-to-reg-btn{
+    width: 100%;
+    border: none;
+    background: #373736;
+    color: #EDEDED;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 0;
+    margin: 0.5rem 0;
+    text-decoration: none;
+}
+
+
 /* Media Queries */
 
 @media (max-width: 1000px) {
