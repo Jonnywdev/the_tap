@@ -233,6 +233,7 @@ body {
     align-items: center;
     text-align: center;
     border-bottom: 1px solid #1F1E20;
+    overflow: hidden;
 }
 
 .card img {
@@ -289,6 +290,7 @@ body {
     .privacy-heading {
         font-size: 4rem;
     }
+
 }
 
 @media (max-width: 900px) {
@@ -303,6 +305,11 @@ body {
 
     .ppolicy-wrapper h2 {
         font-size: 2rem;
+    }
+
+    /* cards on home page */
+    .cards {
+        margin-top: 3rem;
     }
 }
 
@@ -324,6 +331,15 @@ body {
     /* home page */
     .card-caption {
         font-size: 15px;
+    }
+    /* cards on home page */
+    .order h3 {
+        margin-top: 1rem;
+        font-size: 3rem;
+    }
+
+    .cards h3 {
+        font-size: 1.1rem;
     }
 }
 
@@ -360,6 +376,22 @@ body {
     .header-wrapped {
         padding: 0 2rem;
     }
+
+    /* cards on home page */
+
+    .cards {
+        column-count: 2;
+        display: block;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 5rem;
+    }
+
+    .cards h3 {
+        font-size: 1.5rem;
+    }
 }
 
 @media (max-width: 600px) {
@@ -379,6 +411,13 @@ body {
     }
     .back-button-wrapped {
         padding: 0 3rem 3rem 3rem;
+    }
+
+    /* cards on home page */
+    .v-menu h5 {
+        font-weight: 500;
+        padding: 0.9rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -417,6 +456,20 @@ body {
 
     .header-wrapped {
         height: 6.5rem;
+    }
+
+    /* cards on home page */
+    .cards {
+        column-count: 1;
+    }
+
+    .cards h3 {
+        font-size: 3rem;
+    }
+
+    .v-menu h5 {
+        padding: 1rem;
+        font-size: 1.2rem;
     }
 }
 
