@@ -202,62 +202,71 @@ body {
     margin: 3rem;
 }
 
-.card-wrapper {
-    column-count: 2;
-    display: block;
-    width: 100%;
+.order {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card-wrapper a {
-    width: 28%;
-    text-decoration: none;
+.order h3 {
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-top: 5rem;
 }
 
 .card {
-    color: #fff;
-    display: inline-block;
-    overflow: hidden;
-    position: relative;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    width: 95%;
-    margin-bottom: 2rem;
-    border-radius: 25px;
-    transition: all .5s;
-}
-
-.right-card {
-    float: right;
-}
-
-.left-card {
-    float: left;
-}
-  
-.card * {
-    box-sizing: border-box;
-    transition: all 0.45s ease;
-}
-
-.card:hover {
-    box-shadow: 2px 2px 18px #000000;
+    border-bottom: 1px solid #1F1E20;
 }
 
 .card img {
-    vertical-align: top;
+    position: relative;
     width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
 }
 
-.card-caption {
-    font-family: "Raleway", sans-serif;
+.card h3 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+.v-menu {
+    text-decoration: none;
+    border: 3px solid #1F1E20;
+    border-radius: 25px;
+    background: none;
+    transition: all .5s;
+    color: #1F1E20;
+    margin: 2rem 0;
+}
+
+.v-menu:hover {
+    background: #1F1E20;
     color: #EDEDED;
-    background: black;
-    width: 100%;
-    padding: 0px;
-    z-index: 2;
-    border: 2px solid black;
-    font-size: 25px;
+}
+
+.v-menu h5 {
+    font-weight: 500;
+    padding: 1rem;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0;
 }
 
 /* Media Queries */
